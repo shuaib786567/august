@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+body{background:#f4f6f8;display:flex;align-items:center;justify-content:center;height:100vh}
+.container{background:#fff;padding:24px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);width:100%;max-width:420px}
+h1{margin-bottom:12px;font-size:1.4rem;text-align:center;color:#333}
+#todo-form{display:flex;gap:8px;margin-bottom:16px}
+#todo-input{flex:1;padding:10px;border:1px solid #ddd;border-radius:6px;font-size:1rem}
+#add-btn{padding:10px 14px;border:none;background:#1976d2;color:#fff;border-radius:6px;cursor:pointer}
+#add-btn:active{transform:translateY(1px)}
+#todo-list{list-style:none}
+.todo-item{display:flex;align-items:center;justify-content:space-between;padding:10px;border:1px solid #eee;border-radius:6px;margin-bottom:8px;background:#fafafa}
+.todo-text{flex:1;margin-right:12px}
+.delete-btn{background:transparent;border:1px solid #e74c3c;color:#e74c3c;padding:6px 8px;border-radius:6px;cursor:pointer}
+.delete-btn:hover{background:#e74c3c;color:#fff}
+.empty{color:#888;text-align:center;padding:12px}
